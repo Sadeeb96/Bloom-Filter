@@ -1,5 +1,5 @@
 package com.bloom.filter.helper;
 
-public interface HashFuntion {
+public interface HashFunction {
     long hash(String s,int size);
 }

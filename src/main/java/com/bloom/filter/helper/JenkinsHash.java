@@ -1,6 +1,6 @@
 package com.bloom.filter.helper;
 
-public class JenkinsHash implements HashFuntion{
+public class JenkinsHash implements HashFunction {
     @Override
     public long hash(String s, int size) {
         long hash = 0;

@@ -2,7 +2,7 @@ package com.bloom.filter.helper;
 
 import static java.lang.Math.pow;
 
-public class Hash4 implements HashFuntion{
+public class Hash4 implements HashFunction {
     @Override
     public long hash(String s, int size) {
         long hash = 3;

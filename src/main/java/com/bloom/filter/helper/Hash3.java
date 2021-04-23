@@ -1,6 +1,6 @@
 package com.bloom.filter.helper;
 
-public class Hash3 implements HashFuntion{
+public class Hash3 implements HashFunction {
     @Override
     public long hash(String s, int size) {
         long hash = 7;

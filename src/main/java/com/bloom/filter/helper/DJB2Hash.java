@@ -1,6 +1,6 @@
 package com.bloom.filter.helper;
 
-public class DJB2Hash implements HashFuntion{
+public class DJB2Hash implements HashFunction {
     @Override
     public long hash(String s, int size) {
         long hash = 5381;

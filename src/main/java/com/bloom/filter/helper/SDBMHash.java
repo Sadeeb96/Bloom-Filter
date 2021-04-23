@@ -1,6 +1,6 @@
 package com.bloom.filter.helper;
 
-public class SDBMHash implements HashFuntion{
+public class SDBMHash implements HashFunction {
     @Override
     public long hash(String s, int size) {
         long hash = 0;
