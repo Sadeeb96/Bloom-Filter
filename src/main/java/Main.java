@@ -11,7 +11,7 @@ public class Main {
         //hashFunctions.add(new SDBMHash());
        // hashFunctions.add(new DJB2Hash());
         //hashFunctions.add(new DefaultHash());
-        hashFunctions.add(new JenkinsHash());
+        hashFunctions.add(new JenkinsHash())
         hashFunctions.add(new Hash1());
         hashFunctions.add(new Hash2());
         hashFunctions.add(new Hash3());
